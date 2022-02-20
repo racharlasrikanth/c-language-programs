@@ -24,17 +24,36 @@
     }
 */
 
+// int main(){
+//     int personAge = 18;
+
+//     // checking wheather the person is allowed to vote or not?
+
+//     if(personAge < 18){
+//         printf("Heyy you are kid, Please wait for few years...🙂🙂🙂");
+//     }else if(personAge >= 70){
+//         printf("Heyy, you are too old, please go and take rest...😴😴😴");
+//     }else{
+//         printf("Heyy, you are the correct person to vote...😀😃😊");
+//     }
+
+//     return 0;
+// }
+
+
 int main(){
-    int personAge = 18;
+    // printing greeting message based on time hours
 
-    // checking wheather the person is allowed to vote or not?
+    int currentTimeInHours = 20;
 
-    if(personAge < 18){
-        printf("Heyy you are kid, Please wait for few years...🙂🙂🙂");
-    }else if(personAge >= 70){
-        printf("Heyy, you are too old, please go and take rest...😴😴😴");
+    if(currentTimeInHours < 12){
+        printf("Heyy, good morning everyone!!!!\n");
+    }else if(currentTimeInHours < 16){
+        printf("Heyy, good afternoon everyone!!!\n");
+    }else if(currentTimeInHours < 20){
+        printf("Heyy, good evening everyone!!\n");
     }else{
-        printf("Heyy, you are the correct person to vote...😀😃😊");
+        printf("Heyy, good night everyone!\n");
     }
 
     return 0;
