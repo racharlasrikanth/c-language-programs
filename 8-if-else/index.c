@@ -43,6 +43,10 @@
 
 int main(){
     // printing greeting message based on time hours
+    //     // 00 11:59AM => GM
+    //     // 12PM - 3:59PM => GF
+    //     // 4PM - 7:59PM => GV
+    //     // 8pm - 11:59PM => GN
 
     int currentTimeInHours = 20;
 
